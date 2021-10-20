@@ -11,7 +11,7 @@ const books = [
     }
 ]
 
-const author = [
+const authors = [
     {
         id : 1,
         Name: "Kanishka",
@@ -24,17 +24,17 @@ const author = [
     }, 
 ]
 
-const Publication = [
+const Publications = [
     {
         id : 1,
         Name: "writex",
         books: ["12345"],
     },
-    // {
-    //     id : 2,
-    //     Name: "writex2",
-    //     books: [],
-    // },
+    {
+        id : 2,
+        Name: "writex2",
+        books: [],
+    },
 ]
 
-module.exports = {books, author, Publication};
+module.exports = {books, authors, Publications};
